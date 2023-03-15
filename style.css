@@ -1,0 +1,349 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+}
+
+.nav-link2{
+	display: flex;
+	margin-left: 200px;
+
+}
+.nav-link{
+	margin-right: 300px;
+}
+
+.nav-link2 ul {
+	display: flex;
+
+}
+
+.nav-link2 ul li{
+	list-style: none;
+	margin: 20px 20px 20px 20px;
+	font-weight: 00px;
+	padding: 5px;
+}
+.button{
+	margin: 15px 15px;
+	padding: 5px 15px;
+	background-color: red;
+	color: white;
+	border: 1px solid white ;
+	border-radius: 8px;
+	font-weight: 20px;
+	cursor: pointer;
+
+}
+.section-1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+}
+.sect1{
+	display: fleX;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px 30px;
+	padding: 30px 50px;
+	width: 50%;
+}
+.man-pic{
+	width: 30%;
+	min-height: 80vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.man-picture{
+	width: 450px;
+	
+}
+.btn1{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 50px 0px 0px;
+}
+.b2{
+	margin-left: 30px;
+	padding: 10px 10px 10px 10px ;
+	border-radius: 8px;
+	background-color: red;
+	color: white;
+	border: 2px solid red;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.b1{
+	padding: 10px 10px 10px 10px ;
+	border-radius: 8px;
+	background-color: white;
+	border: 2px solid red;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.section-1 h1{
+	font-size: 40px;
+}
+.section-1 p{
+	margin: 5px 0px 0px 0px;
+}
+.section-2{
+	display: flex;
+	background-color: whitesmoke;
+	width: 100%;
+	margin: 25px 0px 25px 0px;
+}
+.coach{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+	padding: 0px 0px 50px 0px;
+}
+.coach-des{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 150px 0px 0px;
+}
+.section-2 h1{
+	font-size: 40px;
+	font-weight: 200;
+}
+.section-2 p{
+	padding: 5px 0px 5px 0px;
+}
+.coach-des button{
+	margin: 5px 100px 5px 0px;
+	width: 100px;
+	padding: 10px 10px 10px 10px ;
+	border-radius: 8px;
+	background-color: royalblue;
+	border: 1px solid white;
+	cursor: pointer;
+
+}
+.coach-des button a {
+	color: white;
+}
+.section-3{
+	background-color: dimgray;
+	height: 60vh;
+	padding: 80px 20px 30px 30px;
+	margin: -30px 0px 0px 0px;
+}
+.head{
+	text-align: center;
+	width: 100%;
+}
+.content{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-around;
+	height: 20vh;
+	margin: 20px 20px 20px 20px ;
+}
+.con1{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 35vh;
+	margin: 0px 30px 0px -9px;
+	padding: 0px 20px 10px 20px ;
+	width: 320px;
+}
+.con1 h2{
+	font-weight: 2;
+	padding: 30px 0px 20px 0px;
+}
+.con1 p{
+	padding: 0px 0px 10px 0px;	
+	margin: 0px 50px 0px 0px;
+}
+.con1 button{
+	width: 120px;
+	background-color: red;
+	color: white;
+	border-radius: 8px;
+	padding: 10px 10px 10px 10px ;
+	margin: 20px 0px 10px 0px;
+	border: 1px solid white;
+	cursor: pointer;
+
+}
+.con2{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 35vh;
+	margin: 0px 30px 0px -100px;
+	padding: 0px 20px 10px 20px ;
+	width: 320px;
+}
+.con2 h2{
+	font-weight: 2;
+	padding: 30px 0px 20px 0px;
+}
+.con2 p{
+	padding: 0px 0px 10px 0px;	
+	margin: 0px 50px 0px 0px;
+}
+.con2 button{
+	width: 140px;
+	background-color: red;
+	color: white;
+	border-radius: 8px;
+	padding: 10px 10px 10px 10px ;
+	margin: 20px 0px 10px 0px;
+	border: 1px solid white;
+	cursor: pointer;
+
+}
+.con3{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 35vh;
+	margin: 0px 30px 0px -100px;
+	padding: 0px 20px 10px 20px ;
+	width: 320px;
+}
+.con3 h2{
+	font-weight: 2;
+	padding: 30px 0px 20px 0px;
+}
+.con3 p{
+	padding: 0px 0px 10px 0px;	
+	margin: 0px 50px 0px 0px;
+}
+.con3 button{
+	width: 150px;
+	background-color: red;
+	color: white;
+	border-radius: 8px;
+	padding: 10px 10px 10px 10px ;
+	margin: 20px 0px 35px 0px;
+	border: 1px solid white;
+	cursor: pointer;
+
+}
+.section-4{
+	background-color: whitesmoke;
+	height: ;
+	margin: 70px 0px 50px 0px;
+	padding: 0px 0px 150px 0px;
+
+}
+.wok{
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+	padding: 40px 0px 40px 0px;
+}
+.wok h1{
+	font-weight: 2;
+}
+.wok p{
+	margin: 0px 500px 0px 500px;
+}
+.wok1{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-around;
+	height: 20vh;
+}
+.wok2{	
+	width: 320px;
+	margin: 0px 30px 0px -9px;
+}
+.wok2 img{
+	margin-left:125px ;
+}
+.wok2 h3{
+	text-align: center;
+}
+.wok2 p{
+	text-align: center;
+	padding: 0px 40px 0px 40px;
+}
+.wok3{
+	width: 320px;
+	margin: 0px 30px 0px -100px;
+}
+.wok3 img{
+	margin-left:125px ;
+}
+.wok3 h3{
+	text-align: center;
+}
+.wok3 p{
+	text-align: center;
+	padding: 0px 40px 0px 40px;
+}
+.wok4{
+	width: 320px;
+	margin: 0px 70px 0px -100px;
+}
+.wok4 img{
+	margin-left:125px ;
+}
+.wok4 h3{
+	text-align: center;
+}
+.wok4 p{
+	text-align: center;
+	padding: 0px 40px 0px 40px;
+}
+.section-5{
+	background-image: url(background.png);
+	width: 100%;
+	height: 60vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.sec5{
+	text-align: center;	
+}
+.sec6{
+	text-align: center;	
+}
+.section-5 button{
+	margin: 0px 0px 0px 600px;
+	width: 120px;
+	border: 1px solid transparent;
+	padding: 10px 10px 10px 10px ;
+	border-radius: 4px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+.section-5 button{
+	transition:  1s;
+}
+.section-5 button:hover{
+	width: 130px;
+	transition-timing-function: ease-out;
+}
+
+.footer{
+	text-align: center;
+}
+
+@media screen and (min-width: 480px){
+	header{width: 200px;}
+}
